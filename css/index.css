@@ -128,11 +128,11 @@ margin-top: 2.5vh;
 }
 
 .btn-login .ul-menu-a{
-
     margin-left: 0vw;
 }
 
 .btn-login{
+    display: inline-block;
     border: none;
     color:#fff;
     width: 6.5vw;
@@ -141,7 +141,6 @@ margin-top: 2.5vh;
     margin-left: 2.5vw;
     border-radius: 0.5vh;
     padding-right: 0vw;
-    background-color: #00CF85;
 }
 
 

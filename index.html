@@ -5,37 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize/normalize.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Home</title>
   </head>
 
   <body>
-    <header class="header">
-      <nav class="menu-nav">
-        <div class="div-p">
-          <img
-            class="div-p-img"
-            src="./assets/image/Mask Group(1).png"
-            alt=""
-          />
-          <p class="div-p-konduza">KONDUZA</p>
-        </div>
-        <ul class="ul-menu">
-          <a class="ul-menu-a a-special" href="#">Home</a>
-          <a class="ul-menu-a" href="./html/licenses.html">Licenças</a>
-          <a class="ul-menu-a" href="./html/about-us.html">Sobre nós</a>
-          <button class="btn-login">
-            <a
-              class="ul-menu-a"
-              href="https://konduza.vercel.app/konduza/auth/login"
-              target="_blank"
-              rel=""
-              >Login</a
-            >
-          </button>
-        </ul>
-      </nav>
-    </header>
+    <div class="menu-container">
+      <div class="menu-container--logo-container">
+        <img
+          src="./assets/image/Mask Group.svg"
+          alt=""
+          class="logo-container--img-drive"
+        />
+        <img
+          src="./assets/image/KONDUZA!.svg"
+          alt=""
+          class="logo-container--img"
+        />
+      </div>
+
+      <ul class="menu-container--menu">
+        <li class="menu-container--menu-item">
+          <a href="#" class="menu-item--link">Home</a>
+        </li>
+        <li class="menu-container--menu-item">
+          <a href="./html/licenses.html" class="menu-item--link">Licenças</a>
+        </li>
+        <li class="menu-container--menu-item">
+          <a href="./html/about-us.html" class="menu-item--link">Sobre nós</a>
+        </li>
+        <li class="menu-container--menu-item">
+          <a
+            href="https://konduza.vercel.app/konduza/auth/login"
+            class="menu-item--link menu-item--login"
+            >Login</a
+          >
+        </li>
+      </ul>
+    </div>
 
     <section class="first-section">
       <img
@@ -327,7 +335,7 @@
           <button class="btn-login-footer">
             <a
               class="ul-menu-a-footer"
-              href="https://konduza.vercel.app/konduza/auth/login"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               >Login</a
