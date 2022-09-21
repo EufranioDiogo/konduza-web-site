@@ -47,11 +47,7 @@
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-.menu-item--link[href="#"]::after {
-=======
 .menu-item--link[href="#"]::after{
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
   content: '';
   position: absolute;
   bottom: -0.5rem;

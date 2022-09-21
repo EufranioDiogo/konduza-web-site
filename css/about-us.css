@@ -6,50 +6,26 @@
 
 @font-face {
     font-family:"Poppins";
-<<<<<<< HEAD
-    src: url('/normalCode/assets/fonts/Poppins/Poppins-Regular.ttf');
-=======
     src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
   }
   
   @font-face {
     font-family:"Ropa Sans";
-<<<<<<< HEAD
-    src: url('/normalCode/assets/fonts/Ropa_Sans/RopaSans-Regular.ttf');
-=======
     src: url('../assets/fonts/Ropa_Sans/RopaSans-Regular.ttf');
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
   }
   
   @font-face {
     font-family: "Poppins Semi-Bold";
-<<<<<<< HEAD
-    src: url('/normalCode/assets/fonts/Poppins/Poppins-SemiBold.ttf');
-=======
     src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
   }
   
   @font-face{
     font-family:"Poppins Light";
-<<<<<<< HEAD
-    src: url('/normalCode/assets/fonts/Poppins/Poppins-Light.ttf');
-=======
     src: url('../assets/fonts/Poppins/Poppins-Light.ttf');
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
   }
   
   @font-face {
     font-family: "Poppins Bold";
-<<<<<<< HEAD
-    src: url('/normalCode/assets/fonts/Poppins/Poppins-Bold.ttf');
-  }
-  body{
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-  }
-=======
     src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
   }
 
@@ -57,7 +33,6 @@ body{
     font-family: Poppins, Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
 
 .header{
     position: fixed;
@@ -510,10 +485,6 @@ margin-top: 2.5vh;
 }
 
 .fifth-section{
-<<<<<<< HEAD
-
-=======
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
     margin-top: 45vh;
     display:grid;
     place-items: center;
@@ -539,10 +510,6 @@ margin-top: 2.5vh;
 }
 
 .btn-submit{
-<<<<<<< HEAD
-
-=======
->>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
     border: none;
     color:#fff;
     width: 6.5vw;

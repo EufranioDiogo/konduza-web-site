@@ -9,27 +9,27 @@ html {
 }
 @font-face {
   font-family:"Poppins";
-  src: url('/normalCode/assets/fonts/Poppins/Poppins-Regular.ttf');
+  src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family:"Ropa Sans";
-  src: url('/normalCode/assets/fonts/Ropa_Sans/RopaSans-Regular.ttf');
+  src: url('../assets/fonts/Ropa_Sans/RopaSans-Regular.ttf');
 }
 
 @font-face {
   font-family: "Poppins Semi-Bold";
-  src: url('/normalCode/assets/fonts/Poppins/Poppins-SemiBold.ttf');
+  src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
 }
 
 @font-face{
   font-family:"Poppins Light";
-  src: url('/normalCode/assets/fonts/Poppins/Poppins-Light.ttf');
+  src: url('../assets/fonts/Poppins/Poppins-Light.ttf');
 }
 
 @font-face {
   font-family: "Poppins Bold";
-  src: url('/normalCode/assets/fonts/Poppins/Poppins-Bold.ttf');
+  src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
 }
 body{
   font-family: Poppins, Arial, Helvetica, sans-serif;
