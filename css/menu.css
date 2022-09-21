@@ -1,0 +1,138 @@
+
+
+.menu-container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  box-shadow:1vw 0 0.5vw #c4c4c4;
+  background-color:#fff;
+}
+
+.menu-container--logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 3vw;
+}
+
+.logo-container--img{
+
+  width: 7vw;
+  margin-left: 0.5vw;
+}
+
+.menu-container--menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 5vh;
+}
+
+.menu-container--menu-item {
+  margin: 0 1rem;
+}
+
+.menu-item--link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #8F8F8F;
+  display: inline-block;
+  position: relative;
+}
+
+.menu-item--link:hover{
+
+  font-weight: bold;
+}
+
+<<<<<<< HEAD
+.menu-item--link[href="#"]::after {
+=======
+.menu-item--link[href="#"]::after{
+>>>>>>> cabdb797ea931109c6c522b98fe1e62217842b64
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  height: 0.4rem;
+  width: 100%;
+  background: linear-gradient(180deg, #00A8E8 0%, #00FFA3 100%);
+  border-radius: 1.5rem;
+}
+
+.menu-item--link[href="#"]{
+
+  background: linear-gradient(90.42deg, #00FFA3 -8.03%, #00A8E8 109.58%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.menu-item--link[href="#"]:hover{
+
+  font-weight: bolder;
+}
+
+.menu-item--login {
+  border-radius: 0.5rem;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  color:#fff;
+  width: 6.5vw;
+  height: 5vh;
+  background: linear-gradient(90.42deg, #00FFA3 -8.03%, #00A8E8 109.58%);
+  margin-left: 2.5vw;
+  border-radius: 0.5vh;
+  text-align: center;
+  line-height: 5vh;
+}
+
+.menu-item--login:hover{
+
+  background: linear-gradient(180deg, #0A749C 0%, #00CF85 100%);
+  font-weight: bold;
+}
+
+
+.top-page-image {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 10vh;
+}
+
+.top-page-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-page-image--text-container {
+  font-size: 2.4rem;
+  color: #fff;
+  display: inline-block;
+  z-index: 1;
+  width: 45vw;
+  line-height: 1.8;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+.top-page-image--image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
